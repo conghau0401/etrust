@@ -22,7 +22,7 @@ function getOrderDetailAPI() {
                 orders += `<td> ${itemData.addr1} </td>`;
                 orders += `
                     <td>
-                        <button type="button" class="btn btn-outline-info btn-view" data-toggle="modal" data-target="#modalDetail" data-order='${orderData}'>View</button>
+                        <button type="button" class="btn btn-outline-info btn-view" data-bs-toggle="modal" data-bs-target="#modalDetail" data-order='${orderData}'>View</button>
                         <button type="button" class="btn btn-outline-success" onclick="confirmOrder()">Confirm</button>
                     </td>
                 `;
